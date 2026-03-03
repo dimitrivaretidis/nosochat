@@ -1,10 +1,9 @@
 import socket
 import threading
 from datetime import datetime
-import os
 
-HOST = "0.0.0.0"
-PORT = int(os.environ.get("PORT", 5555))
+HOST = '0.0.0.0'
+PORT = 5555
 
 clients = []
 names = []
